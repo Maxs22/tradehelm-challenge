@@ -26,13 +26,6 @@ export const ItemCreator = ({itemText, setItemText, listItems, setListItems, set
         setModalIsOpen(false);
       }
       
-    }
-
-    const sameItemHandler = (e) => {
-
-      if(itemText.text === listItems.text){
-        alert("product")
-    }
     } 
   
 
